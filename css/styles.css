@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 body {
   margin-top: 37px;
   background-color: #000000;
@@ -8,60 +9,100 @@ body {
   background-image: url("../img/bg.gif");
   width: 100%;
 }
-.wrapper {
 
+.wrapper {
   padding: 1px; /*forms centre of site border */
 }
+
 .wrapper,
 footer {
   display: block;
   margin: 0 auto;
-  width: 100%;
   max-width: 620px;
 }
+
 .wrapper,
 header,
-.content-box {
+.content-box,
+.store {
   border: 1px solid #818285;
 }
+
 header,
 .content-box,
 footer {
   padding: 10px 24px;
 }
+
 h1 {
   color: #00DBFF;
   font-size: 2.2em;
 }
+
 h2 {
   color: #ffffff;
   font-size: 1.8em;
   font-weight: bold;
 }
+
 p {
+  color: #ffffff;
   font-family: 'Times New Roman', serif;
   font-size: 1.2em;
-  color: #ffffff;
+  line-height: 1.4em;
 }
+
 a {
   color: #00DBFF;
 }
+
 .greet {
   color: #FF0004;
   font-style: italic;
 }
+
+.logo {
+  width: 100%;
+  max-width: 400px;
+}
+
 .shows {
   background-color: #282829;
 }
 
+.about {
+  background-color: #2f0b2c;
+}
+.store {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.sale-item {
+  display: inline;
+  width: 49%;
+  padding: 0 2px !important;
+}
+
+.sale-item img {
+  display: inline;
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: #ffffff;
+}
 
 .social {
   margin: 0 auto;
 }
+
 .social img {
   width: 50px;
   margin: 0 20px;
 }
+
 .social img:hover {
   opacity: 0.5;
 }
@@ -69,8 +110,27 @@ a {
 /* for phones: */
 @media only screen
   and (max-width: 599px) {
+
+    body {
+      margin-top: 20px;
+    }
+
+    .wrapper,
+    footer {
+      width: auto;
+      margin: 0 20px;
+    }
+
     .social img {
       width: 100px;
       margin: 0 10px;
+    }
+  }
+
+/* merch store phone tower: */
+@media only screen
+  and (max-width: 401px) {
+    .sale-item {
+      width: 98%;
     }
   }
