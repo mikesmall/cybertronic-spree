@@ -80,6 +80,11 @@ a:hover, .greet {
 .about {
   background-color: #2f0b2c;
 }
+
+.merch-header h2 {
+  color: #FFEE00
+}
+
 .store {
   display: flex;
   flex-flow: row wrap;
