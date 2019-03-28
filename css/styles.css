@@ -34,6 +34,10 @@ footer {
   padding: 10px 24px;
 }
 
+header {
+  padding-bottom: 20px;
+}
+
 h1 {
   color: #00DBFF;
   font-size: 2.2em;
