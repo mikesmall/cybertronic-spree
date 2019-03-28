@@ -94,6 +94,25 @@ a {
   background-color: #ffffff;
 }
 
+#hat {
+    position: relative;
+}
+
+#hat .hat-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #ffffff;
+
+}
+#hat:hover .hat-overlay {
+    display: block;
+    background: rgba(0, 0, 0, .7);
+}
+
 .social {
   margin: 0 auto;
 }
