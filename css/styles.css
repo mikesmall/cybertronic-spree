@@ -38,6 +38,10 @@ header {
   padding-bottom: 20px;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 h1 {
   color: #00DBFF;
   font-size: 2.2em;
@@ -118,7 +122,6 @@ a:hover, .greet {
     height: 100%;
     display: none;
     color: #ffffff;
-
 }
 
 #hat:hover .hat-overlay {
@@ -131,12 +134,16 @@ a:hover, .greet {
 }
 
 .social img {
-  width: 50px;
+  width: 64px;
   margin: 0 20px;
 }
 
 .social img:hover {
   opacity: 0.5;
+}
+
+.mike p {
+  font-size: 1em;
 }
 
 /* for phones: */
@@ -150,12 +157,23 @@ a:hover, .greet {
     .wrapper,
     footer {
       width: auto;
+    }
+
+    .wrapper {
       margin: 0 20px;
+    }
+
+    .social {
+      margin: 20px;
     }
 
     .social img {
       width: 100px;
-      margin: 0 10px;
+      margin: 20px;
+    }
+
+    .mike p {
+      font-size: 1.2em;
     }
 
   }
