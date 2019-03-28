@@ -56,8 +56,11 @@ a {
   color: #00DBFF;
 }
 
-.greet {
+a:hover, .greet {
   color: #FF0004;
+}
+
+.greet {
   font-style: italic;
 }
 
@@ -108,6 +111,7 @@ a {
     color: #ffffff;
 
 }
+
 #hat:hover .hat-overlay {
     display: block;
     background: rgba(0, 0, 0, .7);
@@ -144,12 +148,15 @@ a {
       width: 100px;
       margin: 0 10px;
     }
+
   }
 
 /* merch store phone tower: */
 @media only screen
   and (max-width: 401px) {
+
     .sale-item {
       width: 98%;
     }
+
   }
