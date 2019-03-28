@@ -2,13 +2,14 @@ html {
   box-sizing: border-box;
 }
 body {
+  margin-top: 37px;
   background-color: #000000;
   text-align: center;
   background-image: url("../img/bg.gif");
   width: 100%;
 }
 .wrapper {
-  margin-top: 20px;
+
   padding: 1px; /*forms centre of site border */
 }
 .wrapper,
@@ -16,34 +17,44 @@ footer {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 640px;
+  max-width: 620px;
 }
 .wrapper,
 header,
-main {
+.content-box {
   border: 1px solid #818285;
 }
 header,
-main,
+.content-box,
 footer {
   padding: 10px 24px;
 }
-h1,
-a {
-  color: #00DBFF;
-}
 h1 {
+  color: #00DBFF;
   font-size: 2.2em;
+}
+h2 {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 p {
   font-family: 'Times New Roman', serif;
   font-size: 1.2em;
   color: #ffffff;
 }
-#greet {
+a {
+  color: #00DBFF;
+}
+.greet {
   color: #FF0004;
   font-style: italic;
 }
+.shows {
+  background-color: #282829;
+}
+
+
 .social {
   margin: 0 auto;
 }
