@@ -142,6 +142,14 @@ a:hover, .greet {
   opacity: 0.5;
 }
 
+.counter p {
+  margin-bottom: 5px;
+}
+
+.counter img {
+  border: 8px groove #818285;
+}
+
 .mike p {
   font-size: 1em;
 }
@@ -161,6 +169,10 @@ a:hover, .greet {
 
     .wrapper {
       margin: 0 20px;
+    }
+
+    .sale-item {
+      width: 48%;
     }
 
     .social {
