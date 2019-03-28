@@ -1,0 +1,35 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	background-image: url("../img/bg.gif");
+	width: 100%;
+}
+#wrap {
+	display: inline-block;
+	margin: 0 auto;
+}
+h1,
+a {
+	color: #00DBFF;
+}
+.social {
+	margin: 0 auto;
+}
+.social img {
+	width: 50px;
+	margin: 0 20px;
+}
+.social img:hover {
+	opacity: 0.5;
+}
+
+
+
+@media only screen
+  and (max-width: 768px) {
+		.social img {
+			width: 100px;
+			margin: 0 10px;
+		}
+  }
