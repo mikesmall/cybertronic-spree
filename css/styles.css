@@ -191,6 +191,10 @@ a:hover,
   background: rgba(0, 0, 0, .7);
 }
 
+.item-view {
+  color: #00DBFF;
+}
+
 /* End of overlay code */
 
 .social {
@@ -290,7 +294,7 @@ a:hover,
 
 /* merch store phone tower: */
 @media only screen
-  and (max-width: 401px) {
+  and (max-width: 412px) {
 
     .sale-item {
       width: 98%;
