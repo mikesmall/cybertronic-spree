@@ -150,8 +150,12 @@ a:hover,
   padding-top: 4px;
 }
 
+
+/* Code for merchandise item overlays: */
+
 .sale-item {
   display: inline;
+  position: relative;
   width: 49%;
   padding: 0 2px !important;
 }
@@ -164,24 +168,26 @@ a:hover,
   background-color: #ffffff;
 }
 
-#hat {
-    position: relative;
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #ffffff;
 }
 
-#hat .hat-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #ffffff;
+.text-overlay p {
+  vertical-align: middle;
 }
 
-#hat:hover .hat-overlay {
-    display: block;
-    background: rgba(0, 0, 0, .7);
+.sale-item:hover .text-overlay {
+  display: block;
+  background: rgba(0, 0, 0, .7);
 }
+
+/* End of overlay code */
 
 .social {
   margin: 0 auto;
