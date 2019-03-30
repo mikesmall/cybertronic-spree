@@ -241,6 +241,10 @@ a:hover,
   font-size: 1em;
 }
 
+.mobile-break {
+  display: none;
+}
+
 /* for phones: */
 @media only screen
   and (max-width: 599px) {
@@ -276,6 +280,10 @@ a:hover,
 
     .social {
       margin: 0;
+    }
+
+    .mobile-break {
+      display: inline;
     }
 
   }
