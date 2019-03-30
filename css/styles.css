@@ -279,7 +279,7 @@ a:hover,
     }
 
     .sale-item {
-      width: 48%;
+      width: 98%;
     }
 
     .social {
@@ -288,16 +288,6 @@ a:hover,
 
     .mobile-break {
       display: inline;
-    }
-
-  }
-
-/* merch store phone tower: */
-@media only screen
-  and (max-width: 412px) {
-
-    .sale-item {
-      width: 98%;
     }
 
   }
