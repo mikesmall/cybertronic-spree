@@ -31,7 +31,7 @@ header,
 header,
 .content-box,
 footer {
-  padding: 10px 24px;
+  padding: 10px 20px;
 }
 
 header {
@@ -45,6 +45,7 @@ footer {
 h1 {
   color: #00DBFF;
   font-size: 2.2em;
+  margin-bottom: 0.25em;
 }
 
 h2 {
@@ -64,7 +65,8 @@ a {
   color: #00DBFF;
 }
 
-a:hover, .greet {
+a:hover,
+.greet {
   color: #FF0004;
 }
 
@@ -72,17 +74,67 @@ a:hover, .greet {
   font-style: italic;
 }
 
+.lazer {
+  height: 1px;
+  width: 80%;
+}
+
 .logo {
   width: 100%;
   max-width: 400px;
+}
+
+.under-logo {
+  margin-top: 0;
 }
 
 .shows {
   background-color: #282829;
 }
 
+.shows-header h2,
+.merch-header h2 {
+  display: inline-block;
+}
+
+.shows-header img,
+.merch-header img {
+  display: inline-block;
+}
+
+.shows-header img {
+  vertical-align: middle;
+}
+
+.merch-header img {
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.shows-subheader,
+.merch-header p {
+  margin-top: 0;
+}
+
 .about {
   background-color: #2f0b2c;
+}
+
+.about img {
+  margin-top: 20px;
+}
+
+.about h2 {
+  margin-top: 12px;
 }
 
 .merch-header h2 {
@@ -135,7 +187,7 @@ a:hover, .greet {
 
 .social img {
   width: 64px;
-  margin: 0 20px;
+  margin: 6px 12px;
 }
 
 .social img:hover {
@@ -146,11 +198,20 @@ a:hover, .greet {
   text-decoration: none;
 }
 
+.social #last2 {
+	white-space: nowrap;
+}
+
+.counter {
+	margin: 10px;
+}
+
 .counter p {
   margin-bottom: 5px;
 }
 
 .counter img {
+	width: 140px;
   border: 8px groove #818285;
 }
 
@@ -175,21 +236,21 @@ a:hover, .greet {
       margin: 0 20px;
     }
 
+    .lazer {
+      width: 90%;
+    }
+
+    .shows-header img,
+    .merch-header img {
+      display: none;
+    }
+
     .sale-item {
       width: 48%;
     }
 
     .social {
-      margin: 20px;
-    }
-
-    .social img {
-      width: 100px;
-      margin: 20px;
-    }
-
-    .mike p {
-      font-size: 1.2em;
+      margin: 0;
     }
 
   }
