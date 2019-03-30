@@ -216,6 +216,10 @@ a:hover,
   border: 8px groove #818285;
 }
 
+.spinning-logo {
+  width: 72px;
+}
+
 .mike p {
   font-size: 1em;
 }
