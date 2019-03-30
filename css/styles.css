@@ -178,10 +178,6 @@ a:hover,
   color: #ffffff;
 }
 
-.item-overlay p {
-  vertical-align: middle;
-}
-
 .item-overlay img {
   width: 40%;
 }
@@ -189,10 +185,6 @@ a:hover,
 .sale-item:hover .item-overlay {
   display: block;
   background: rgba(0, 0, 0, .7);
-}
-
-.item-view {
-  color: #00DBFF;
 }
 
 /* End of overlay code */
@@ -279,7 +271,7 @@ a:hover,
     }
 
     .sale-item {
-      width: 98%;
+      width: 48%;
     }
 
     .social {
@@ -291,3 +283,13 @@ a:hover,
     }
 
   }
+
+/* mobile merch item tower, for skinnier phone screens */
+@media only screen
+  and (max-width: 410px) {
+
+    .sale-item {
+      width: 98%;
+    }
+
+}
