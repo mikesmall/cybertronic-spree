@@ -168,7 +168,7 @@ a:hover,
   background-color: #ffffff;
 }
 
-.text-overlay {
+.item-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -178,11 +178,15 @@ a:hover,
   color: #ffffff;
 }
 
-.text-overlay p {
+.item-overlay p {
   vertical-align: middle;
 }
 
-.sale-item:hover .text-overlay {
+.item-overlay img {
+  width: 40%;
+}
+
+.sale-item:hover .item-overlay {
   display: block;
   background: rgba(0, 0, 0, .7);
 }
