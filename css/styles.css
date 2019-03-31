@@ -90,6 +90,10 @@ a:hover,
   margin-top: 0;
 }
 
+.band-photo {
+  width: 100%;
+}
+
 .shows {
   background-color: #282829;
 }
