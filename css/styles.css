@@ -131,6 +131,11 @@ a:hover,
   margin-top: 0;
 }
 
+.tour2020poster {
+  width: 100%;
+  max-width: 500px;
+}
+
 .about {
   background-color: #424242;
 }
@@ -271,7 +276,7 @@ a:hover,
     }
 
     .merch-header img {
-      margin: 0;f
+      margin: 0;
     }
 
     .sale-item {
